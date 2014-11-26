@@ -58,4 +58,4 @@
 #define P2P_NET_DATA_FILENAME                   "p2pstate.bin"
 #define MINER_CONFIG_FILE_NAME                  "miner_conf.json"
 #define THREAD_STACK_SIZE                       5 * 1024 * 1024
-#define GENESIS_COINBASE_TX_HEX                 ""
+#define GENESIS_COINBASE_TX_HEX                 "016401ff0001bbbad6adf00d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101727f75c42f4d22e2cea90a91348d72d02553ca3eaedb8164b2ff9143a30dc891"
