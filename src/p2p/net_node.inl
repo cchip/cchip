@@ -195,7 +195,7 @@ namespace nodetool
   bool node_server<t_payload_net_handler>::init(const boost::program_options::variables_map& vm, bool testnet)
   {
     if (!testnet) {
-      ADD_HARDCODED_SEED_NODE("node00.cchip,info:53842");
+      ADD_HARDCODED_SEED_NODE("node00.cchip.info:53842");
       ADD_HARDCODED_SEED_NODE("node01.cchip.info:53842");
     } else {
       m_network_id.data[0] += 1;
