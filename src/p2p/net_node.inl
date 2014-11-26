@@ -195,8 +195,8 @@ namespace nodetool
   bool node_server<t_payload_net_handler>::init(const boost::program_options::variables_map& vm, bool testnet)
   {
     if (!testnet) {
-      ADD_HARDCODED_SEED_NODE("54.174.19.21:718125");
-      ADD_HARDCODED_SEED_NODE("54.174.105.112:718125");
+      ADD_HARDCODED_SEED_NODE("54.174.19.21:53842");
+      ADD_HARDCODED_SEED_NODE("54.174.105.112:53842");
     } else {
       m_network_id.data[0] += 1;
     }
