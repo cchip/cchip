@@ -1,0 +1,73 @@
+2014-Nov-26 20:33:54.260296 cchip v1.0.1.1()
+2014-Nov-26 20:33:54.260395 Module folder: ./daemon
+2014-Nov-26 20:33:54.261361 Initializing p2p server...
+2014-Nov-26 20:33:54.363080 Binding on 0.0.0.0:53842
+2014-Nov-26 20:33:54.363191 Net service binded on 0.0.0.0:53842
+2014-Nov-26 20:33:54.363223 Attempting to add IGD port mapping.
+2014-Nov-26 20:33:58.368004 No IGD was found.
+2014-Nov-26 20:33:58.368100 P2p server initialized OK
+2014-Nov-26 20:33:58.368119 Initializing cryptonote protocol...
+2014-Nov-26 20:33:58.368134 Cryptonote protocol initialized OK
+2014-Nov-26 20:33:58.368158 Initializing core rpc server...
+2014-Nov-26 20:33:58.368192 Binding on 127.0.0.1:53843
+2014-Nov-26 20:33:58.368288 Core rpc server initialized OK on port: 53843
+2014-Nov-26 20:33:58.368323 Initializing core...
+2014-Nov-26 20:33:58.368479 Loading blockchain...
+2014-Nov-26 20:33:58.368671 Blockchain initialized. last block: 0, d875.h15.m33.s58 time ago, current difficulty: 1
+2014-Nov-26 20:33:58.368705 Core initialized OK
+2014-Nov-26 20:33:58.368794 Starting core rpc server...
+2014-Nov-26 20:33:58.368822 Run net_service loop( 2 threads)...
+2014-Nov-26 20:33:58.368890 [SRV_MAIN]Core rpc server started ok
+2014-Nov-26 20:33:58.368925 [SRV_MAIN]Starting p2p net loop...
+2014-Nov-26 20:33:58.368966 [SRV_MAIN]Run net_service loop( 10 threads)...
+2014-Nov-26 20:33:59.369123 [P2P9]
+**********************************************************************
+The daemon will start synchronizing with the network. It may take up to several hours.
+
+You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+
+Use "help" command to see the list of available commands.
+
+Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+**********************************************************************
+2014-Nov-26 20:33:59.370834 [P2P7]
+**********************************************************************
+You are now synchronized with the network. You may now start simplewallet.
+
+Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+Otherwise, you will possibly need to synchronize the blockchain again.
+
+Use "help" command to see the list of available commands.
+**********************************************************************
+2014-Nov-26 20:34:15.375649 [P2P7]Connecting to 54.174.105.112:53842(white=1, last_seen: never)...
+2014-Nov-26 20:34:20.376116 [P2P7][0.0.0.0:0 OUT]Connect failed to 54.174.105.112:53842
+2014-Nov-26 20:34:20.377854 [P2P7]Connecting to 172.30.0.252:53842(white=1, last_seen: never)...
+2014-Nov-26 20:34:20.379324 [P2P8][172.30.0.252:53703 INC]COMMAND_HANDSHAKE
+2014-Nov-26 20:34:20.379445 [P2P4][172.30.0.252:53842 OUT] COMMAND_HANDSHAKE(AND CLOSE) INVOKED OK
+2014-Nov-26 20:34:22.379797 [P2P7]Connecting to 172.30.0.252:53842(white=1, last_seen: never)...
+2014-Nov-26 20:34:22.381368 [P2P3][172.30.0.252:53704 INC]COMMAND_HANDSHAKE
+2014-Nov-26 20:34:22.381485 [P2P4][172.30.0.252:53842 OUT] COMMAND_HANDSHAKE(AND CLOSE) INVOKED OK
+2014-Nov-26 20:34:24.381759 [P2P3]Connecting to 54.174.105.112:53842(white=1, last_seen: never)...
+2014-Nov-26 20:34:29.382275 [P2P3][0.0.0.0:0 OUT]Connect failed to 54.174.105.112:53842
+2014-Nov-26 20:34:29.382361 [P2P3]Connecting to 172.30.0.252:53842(white=1, last_seen: never)...
+2014-Nov-26 20:34:29.384095 [P2P9][172.30.0.252:53706 INC]COMMAND_HANDSHAKE
+2014-Nov-26 20:34:29.384211 [P2P9][172.30.0.252:53842 OUT] COMMAND_HANDSHAKE(AND CLOSE) INVOKED OK
+2014-Nov-26 20:34:31.384472 [P2P1]Connecting to 54.174.105.112:53842(white=1, last_seen: never)...
+2014-Nov-26 20:34:36.384929 [P2P1][0.0.0.0:0 OUT]Connect failed to 54.174.105.112:53842
+2014-Nov-26 20:34:36.384995 [P2P1]Connecting to 172.30.0.252:53842(white=1, last_seen: never)...
+2014-Nov-26 20:34:36.386559 [P2P9][172.30.0.252:53708 INC]COMMAND_HANDSHAKE
+2014-Nov-26 20:34:36.386657 [P2P9][172.30.0.252:53842 OUT] COMMAND_HANDSHAKE(AND CLOSE) INVOKED OK
+2014-Nov-26 20:34:41.518047 Failed to read line. Stopping...
+2014-Nov-26 20:34:41.518257 [node] Stop signal sent
+2014-Nov-26 20:34:41.518061 [SRV_MAIN][node] Stop signal sent
+2014-Nov-26 20:34:41.518487 [SRV_MAIN]net_service loop stopped.
+2014-Nov-26 20:34:41.518520 [SRV_MAIN]p2p net loop stopped
+2014-Nov-26 20:34:41.518542 [SRV_MAIN]Stopping core rpc server...
+2014-Nov-26 20:34:41.518649 [SRV_MAIN]Deinitializing core...
+2014-Nov-26 20:34:41.518692 [SRV_MAIN]Mining has been stopped, 0 finished
+2014-Nov-26 20:34:41.518914 [SRV_MAIN]Saved blockchain cache.
+2014-Nov-26 20:34:41.518972 [SRV_MAIN]Deinitializing rpc server ...
+2014-Nov-26 20:34:41.519001 [SRV_MAIN]Deinitializing cryptonote_protocol...
+2014-Nov-26 20:34:41.519023 [SRV_MAIN]Deinitializing p2p...
+2014-Nov-26 20:34:41.519109 [SRV_MAIN]Node stopped.
+2014-Nov-26 20:34:41.519317 [SRV_MAIN]Mining has been stopped, 0 finished
